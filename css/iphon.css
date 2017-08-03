@@ -1,0 +1,95 @@
+@media screen and (min-width: 320px) and (max-width: 670px) {
+
+/*login.css*/
+  #login .login__column:first-child {
+      display: none;
+  }
+
+  #login .login__column:nth-child(2) {
+      width: 100%;
+  }
+
+
+
+
+
+/**profile**/
+
+#profile .profile__header {
+  display: block;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.profile__header .avatar__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin : 20px 0;
+}
+
+.profile__header .profile__info {
+  width: 100%;
+}
+
+.profile__title i {
+  display: none;
+}
+.profile__title a {
+  margin: 0;
+}
+.profile__info .profile__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.profile__info .profile__stats{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile__bio{
+  text-align: center;
+}
+
+
+
+
+  main {
+    margin-top: 0;
+  }
+
+  .navigation input {
+    display: none;
+  }
+
+  .photo .photo__add-comment-container {
+    display: none;
+  }
+
+  .u-default-box {
+    background-color: transparent;
+    border: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .footer__list .footer__item {
+    margin-bottom: 10px;
+  }
+
+  .photo {
+    margin-bottom: 30px;
+  }
+}

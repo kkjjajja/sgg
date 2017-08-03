@@ -19,6 +19,29 @@
   font-size: 14px;
 }
 
+
+.navigation img {
+  width: 8%;
+}
+
+.navigation__container{
+width: 90%;
+margin-right: 200px;
+}
+.navigation__lists {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+
+  }
+
+.navigation__lists .navigation__item {
+  display: flex;
+  align-items: center;
+
+}
+
+
 .navigation input:focus {
   outline: none;
   background: white;

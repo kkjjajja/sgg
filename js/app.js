@@ -1,27 +1,21 @@
 $(document).ready(function() {
-  var $heart = $(".heart"),
-    $cog = $(".fa-cog"),
-    $overlay = $(".profile__overlay"),
-    $closeBtn = $(".fa-times"),
-    $cancelBtn = $("#cancel"),
-    $logoutBtn = $("#logout");
-  $heart.click(function() {
+  var $heart = $(".heart");
+  $heart.click(function(){
     $(this).toggleClass("heart-clicked fa-heart fa-heart-o");
   });
+  var $profileOverlay = $(".profile__overlay");
+  var $closeBtn = $(".cancelLauncher");
 
-  $cog.click(function() {
-    $overlay.fadeIn();
+  $closeBtn.click(function(){
+    $profileOverlay.fadeOut();
   });
+  var $openBtn = $(".fa-cog");
+  $openBtn.click(function(){
+    $profileOverlay.fadeIn();
+  })
 
-  $closeBtn.click(closePopup);
-  $cancelBtn.click(closePopup);
-
-  function closePopup() {
-    $overlay.fadeOut();
-  }
-
-  $logoutBtn.click(function() {
-    closePopup();
-    window.location = "index.html";
-  });
+  var $logoutBtn = $(".logoutLauncher");
+  $logoutBtn.click(function(){
+    window.location = 'index.html'
+  })
 });

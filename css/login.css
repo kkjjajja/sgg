@@ -8,6 +8,7 @@
   flex-wrap: nowrap;
 }
 
+
 #login .login__column {
   width: 47%;
 }
@@ -88,7 +89,7 @@
   border: 0;
   color: white;
   font-weight: 600;
-  background-color: #3897f0;
+  background-color: #f269bc;
   padding: 7px;
   cursor: pointer;
 }

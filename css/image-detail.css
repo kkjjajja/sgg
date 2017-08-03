@@ -1,0 +1,55 @@
+#feed{
+}
+
+
+.photo__header{
+  display: flex;
+  align-items: center;
+}
+
+
+/**왜 안내려가니 ㅠ ㅡㅇ ?**/
+.photo__info{
+display: block;
+font-size: 12px;
+}
+.photo__username{
+display: block;
+font-size: 12px;
+}
+
+
+.photo__username{
+  font-weight: 600;
+}
+
+
+.phto img{
+max-width: 100%;
+
+width: 100%;
+}
+
+
+.photo__header img{
+  width: 30px;
+  height: 30px;
+}
+
+
+.photo__header img,
+.photo__comments,
+.photo__actions{
+margin: 15px;
+}
+
+
+.photo__icomment-author{
+  font-weight: 600;
+}
+
+/**얘왜 안붙지 ㅇ ㅡㅇ ?**/
+.fa fa-heart-o,
+.fa fa-comment-o{
+  display:flex;
+}
